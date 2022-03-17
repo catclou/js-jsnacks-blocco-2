@@ -11,3 +11,18 @@ while (numeroRichiesto < 0) {
 
 // 4) Se è positivo, stamparlo
 document.getElementById("numeroRichiesto").innerHTML = `${numeroRichiesto}`;
+
+// OPPURE, CON DO-WHILE:
+
+/*
+
+do {
+    let numeroRichiesto = prompt("Scrivi un numero");
+} while (numeroRichiesto < 0);
+
+document.getElementById("numeroRichiesto").innerHTML = `${numeroRichiesto}`;
+
+let test = prompt("Reinserisci un numero")
+console.log(test);
+
+*/
